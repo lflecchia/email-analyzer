@@ -1,0 +1,23 @@
+# Email Space Analyzer - Python Dependencies
+
+# Core Flask web framework
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Data processing
+pandas>=1.5.0
+
+# Microsoft Authentication (Outlook)
+msal>=1.24.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Google Authentication and APIs (Gmail)
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.100.0
+
+# Optional: For better performance and security
+cryptography>=41.0.0
