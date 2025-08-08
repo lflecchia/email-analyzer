@@ -41,7 +41,7 @@ A powerful, user-friendly web application that analyzes your Outlook and Gmail a
 
 ```bash
 # Clone or download the project
-git clone https://github.com/your-username/email-analyzer.git
+git clone https://github.com/lflecchia/email-analyzer.git
 cd email-analyzer
 
 # Install dependencies
