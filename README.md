@@ -41,30 +41,37 @@ A powerful, user-friendly web application that analyzes your Outlook and Gmail a
 
 ```bash
 # Clone or download the project
-git clone https://github.com/your-username/email-space-analyzer.git
-cd email-space-analyzer
+git clone https://github.com/your-username/email-analyzer.git
+cd email-analyzer
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Start the application
-python email_analyzer_backend.py
+python backend/email_analyzer_backend.py
 ```
 
 ## 📁 Project Files
 
 ```
-email-space-analyzer/
-├── 📄 index.html                    # Web interface (save this file)
-├── 🐍 email_analyzer_backend.py     # Python API server (save this file)
-├── 📋 requirements.txt               # Python dependencies (save this file)
-├── 🚀 start.bat                     # Windows launcher (save this file)
-├── 🚀 start.sh                      # Linux/Mac launcher (save this file)
-├── 📖 README.md                     # This documentation
-├── 📊 data/                         # Created automatically
-│   ├── cache/                       # Authentication tokens & account data
-│   └── exports/                     # Analysis results & CSV exports
-└── 🔧 gmail_credentials.json        # Gmail API credentials (you create)
+email-analyzer/
+├── 📄 index.html                    # HTML structure
+├── 🎨 assets/
+│   ├── css/
+│   │   ├── main.css                 # Main styles
+│   │   └── components.css           # Component styles
+│   ├── js/
+│   │   ├── app.js                   # App logic
+│   │   ├── auth.js                  # Authentication handling
+│   │   ├── charts.js                # Chart rendering
+│   │   └── utils.js                 # Utility functions
+│   └── icons/                       # Optional icons
+├── 🐍 backend/
+│   └── email_analyzer_backend.py    # Python server
+├── 📋 requirements.txt
+├── 🚀 start.bat
+├── 🚀 start.sh
+└── 📖 README.md
 ```
 
 ## 🔑 Email Provider Setup
@@ -238,14 +245,14 @@ We welcome contributions! Areas for development:
 
 ### **Development Setup**
 ```bash
-git clone https://github.com/your-username/email-space-analyzer.git
-cd email-space-analyzer
+git clone https://github.com/your-username/email-analyzer.git
+cd email-analyzer
 
 # Install development dependencies
 pip install -r requirements.txt
 
 # Run in development mode
-python email_analyzer_backend.py --debug
+python backend/email_analyzer_backend.py --debug
 ```
 
 ## 📊 Power BI Integration
@@ -389,30 +396,37 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ```bash
 # Clone or download the project
-git clone https://github.com/your-username/email-space-analyzer.git
-cd email-space-analyzer
+git clone https://github.com/your-username/email-analyzer.git
+cd email-analyzer
 
 # Install dependencies
 pip install flask flask-cors pandas msal requests google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
 # Start the application
-python email_analyzer_backend.py
+python backend/email_analyzer_backend.py
 ```
 
 ## 📁 Project Structure
 
 ```
-email-space-analyzer/
-├── 📄 index.html                 # Web interface (frontend)
-├── 🐍 email_analyzer_backend.py  # Python API server (backend)
-├── 🚀 start.bat                  # Windows launcher
-├── 🚀 start.sh                   # Linux/Mac launcher
-├── 📖 README.md                  # This file
-├── 📄 requirements.txt           # Python dependencies
-├── 📊 data/                      # Data directory (auto-created)
-│   ├── cache/                    # Authentication tokens
-│   └── exports/                  # Analysis results & exports
-└── 🔧 gmail_credentials.json     # Gmail API credentials (you provide)
+email-analyzer/
+├── 📄 index.html                    # HTML structure
+├── 🎨 assets/
+│   ├── css/
+│   │   ├── main.css                 # Main styles
+│   │   └── components.css           # Component styles
+│   ├── js/
+│   │   ├── app.js                   # App logic
+│   │   ├── auth.js                  # Authentication handling
+│   │   ├── charts.js                # Chart rendering
+│   │   └── utils.js                 # Utility functions
+│   └── icons/                       # Optional icons
+├── 🐍 backend/
+│   └── email_analyzer_backend.py    # Python server
+├── 📋 requirements.txt
+├── 🚀 start.bat
+├── 🚀 start.sh
+└── 📖 README.md
 ```
 
 ## 🔑 Setup Guide
@@ -510,13 +524,13 @@ Jane Smith,jane@gmail.com,2024-01-15T10:15:00Z,false,2048,Meeting Notes,gmail
 ### **Advanced Options**
 ```bash
 # Custom server settings
-python email_analyzer_backend.py --port 8080 --host 0.0.0.0
+python backend/email_analyzer_backend.py --port 8080 --host 0.0.0.0
 
 # Debug mode
-python email_analyzer_backend.py --debug
+python backend/email_analyzer_backend.py --debug
 
 # Disable auto-browser opening
-python email_analyzer_backend.py --no-browser
+python backend/email_analyzer_backend.py --no-browser
 ```
 
 ### **Email Limits**
@@ -530,14 +544,14 @@ We welcome contributions! Here's how to get started:
 
 ### **Development Setup**
 ```bash
-git clone https://github.com/your-username/email-space-analyzer.git
-cd email-space-analyzer
+git clone https://github.com/your-username/email-analyzer.git
+cd email-analyzer
 
 # Install development dependencies
 pip install -r requirements.txt
 
 # Run in debug mode
-python email_analyzer_backend.py --debug
+python backend/email_analyzer_backend.py --debug
 ```
 
 ### **Contribution Areas**
@@ -616,8 +630,8 @@ pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-pyt
 
 ### **Getting Help**
 - 📖 **Documentation**: Check this README first
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/your-username/email-space-analyzer/issues)
-- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/your-username/email-space-analyzer/discussions)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/your-username/email-analyzer/issues)
+- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/your-username/email-analyzer/discussions)
 - 📧 **Email Support**: email-analyzer@yourdomain.com
 
 ### **Self-Help Resources**
